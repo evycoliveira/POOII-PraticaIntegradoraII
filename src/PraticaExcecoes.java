@@ -1,12 +1,8 @@
 public class PraticaExcecoes {
 
-    private static int a = 0, b = 300;
-    public static void main(String[] args) {
+    private int a = 0, b = 300;
 
-        dividir();
-    }
-
-    public static void dividir() {
+    public void dividir() {
 
         try {
             if (a == 0)
